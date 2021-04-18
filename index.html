@@ -10,14 +10,11 @@
       sizes="76x76"
       href="./assets/img/apple-icon.png"
     />
-    <link
-      rel="stylesheet"
-      href="./assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
+    <link rel="stylesheet" href="./assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" />
+    <link rel="stylesheet"
+      href="https://unpkg.com/tailwindcss@2.1.1/dist/tailwind.css"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
-    />
+    <link rel="stylesheet" href="custom.css"    />
     <title>Hursh Gupta | Some Random Page</title>
   </head>
   <body class="text-gray-800 antialiased">
@@ -31,11 +28,11 @@
           class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
         >
           <a
-            class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
+            class="text-lg hindi font-bold leading-relaxed inline-block mr-4 py-1 whitespace-no-wrap uppercase text-gray-100"
             href="https://www.instagram.com/thathursh/"
             >Hursh Gupta</a
           ><button
-            class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+            class="cursor-pointer transition duration-300 transform hover:scale-75 text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
             type="button"
             onclick="toggleNavbar('example-collapse-navbar')"
           >
@@ -43,14 +40,14 @@
           </button>
         </div>
         <div
-          class="lg:flex flex-grow items-center bg-black opacity-75 rounded-lg lg:opacity-100 lg:bg-transparent lg:shadow-none hidden"
+          class="lg:flex flex-grow transition duration-500 lg:scale-100 origin-top-right transform items-center bg-white  rounded-lg lg:opacity-100 lg:bg-transparent lg:shadow-xl scale-0"
           id="example-collapse-navbar"
         >
         <! One of the options>
-          <ul class="flex flex-col lg:flex-row list-none mr-auto">
+          <ul class="flex text-gray-800 flex-col lg:flex-row list-none mr-auto">
             <li class="flex items-center">
               <a
-                class="lg:text-white lg:hover:text-gray-300 text-white lg:text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                class="lg:text-gray-100 transition duration-300 hover:bg-purple-200 flex-grow lg:hover:bg-transparent lg:bg-transparent rounded-lg lg:hover:text-green-300 lg:text-gray-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 href="https://drive.google.com/drive/u/0/folders/1-i803FB9P7guIod5d24kPTpranRU0zDV"
                 ><i
                   class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"
@@ -60,7 +57,7 @@
             </li>
             <li class="flex items-center">
               <a
-                class="lg:text-white lg:hover:text-gray-300 text-white lg:text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                class="lg:text-gray-100 transition duration-300 hover:bg-yellow-200 flex-grow  lg:hover:bg-transparent lg:bg-transparent rounded-lg lg:hover:text-blue-300 lg:text-gray-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 href="https://photos.google.com/share/AF1QipOxAw6dPYJAh08gWuui2LhNBZqEWfV_J5Mf955aPwW3YYODMZPSyhK3zk_mD-tlqQ?key=ZTJlS0tkVjdjQzRjZkk4bU5sTVpZR095dEtXTjRR"
                 ><i
                   class="lg:text-gray-300 text-gray-500 fa fa-image text-lg leading-lg mr-2"
@@ -70,43 +67,43 @@
             </li>
           </ul>
           <! End of option>
-          <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
-            <li class="flex items-center">
+          <ul class="flex text-gray-800  flex-col lg:flex-row list-none lg:ml-auto">
+            <li class="flex group items-center">
               <a
-                class="lg:text-white lg:hover:text-gray-300 text-white lg:text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href="https://www.facebook.com/hurshgupta.PU"
-                ><i
-                  class="lg:text-gray-300 text-gray-500 fab fa-facebook text-lg leading-lg"
-                ></i
-                ><span class="lg:hidden inline-block ml-2">My Facebook</span></a
-              >
-            </li>
-            <li class="flex items-center">
-              <a
-                class="lg:text-white lg:hover:text-gray-300 text-white lg:text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                class="lg:text-gray-100 transition duration-300 group-hover:bg-blue-200 flex-grow lg:bg-transparent rounded-lg  lg:hover:text-gray-300 lg:text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 href="https://twitter.com/thatHursh"
                 ><i
-                  class="lg:text-gray-300 text-gray-500 fab fa-twitter text-lg leading-lg "
+                  class="lg:text-gray-300 group-hover:text-gray-100 text-gray-500 fab fa-twitter text-lg leading-lg "
                 ></i
                 ><span class="lg:hidden inline-block ml-2">MY Twitter</span></a
               >
             </li>
-            <li class="flex items-center">
+            <li class="flex group items-center">
               <a
-                class="lg:text-white lg:hover:text-gray-300 text-white lg:text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                class="lg:text-gray-100 transition duration-300 group-hover:bg-green-400 flex-grow lg:bg-transparent rounded-lg  lg:hover:text-gray-300 lg:text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 href="https://github.com/elabs/"
                 ><i
-                  class="lg:text-gray-300 text-gray-500 fab fa-github text-lg leading-lg "
+                  class="lg:text-gray-300 group-hover:text-white text-gray-500 fab fa-github text-lg leading-lg "
                 ></i
                 ><span class="lg:hidden inline-block ml-2">MY github page</span></a
               >
             </li>
-            <li class="flex items-center">
+            <li class="flex items-center group">
               <a
-                class="lg:text-white lg:hover:text-gray-300 text-white lg:text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                class="lg:text-gray-100 transition duration-300 group-hover:bg-blue-400 flex-grow lg:bg-transparent rounded-lg  lg:hover:text-gray-300 lg:text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                href="https://www.facebook.com/hurshgupta.PU"
+                ><i
+                  class="lg:text-gray-300 group-hover:text-white text-gray-500 fab fa-facebook text-lg leading-lg"
+                ></i
+                ><span class="lg:hidden inline-block ml-2">My Facebook</span></a
+              >
+            </li>
+            <li class="flex group items-center">
+              <a
+                class="lg:text-gray-100 transition duration-300 group-hover:bg-red-500 hover:text-white flex-grow lg:bg-transparent rounded-lg  lg:hover:text-gray-300 lg:text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 href="https://www.youtube.com/channel/UCyZazp3KEFj76D36H8Tcjyg"
                 ><i
-                  class="lg:text-gray-300 text-gray-500 fab fa-youtube text-lg leading-lg "
+                  class="lg:text-gray-300 group-hover:text-white text-gray-500 fab fa-youtube text-lg leading-lg "
                 ></i
                 ><span class="lg:hidden inline-block ml-2">My Youtube</span></a
               >
@@ -134,7 +131,7 @@
       >
         <div
           class="md:bg-fixed absolute top-0 w-full h-full bg-center bg-cover"
-          style='background-image: url("./assets/img/wallpaper-phone.jpg");'
+          style='background-image: url("./assets/img/wallpaper2.jpg");'
         >
           <span
             id="blackOverlay"
@@ -147,19 +144,18 @@
               <div class="xl:pr-12">
                 <img
                   alt="My face"
-                  src="https://scontent.fccu3-1.fna.fbcdn.net/v/t1.0-9/151258414_3733653846752538_3606426179203692100_n.jpg?_nc_cat=103&ccb=3&_nc_sid=09cbfe&_nc_ohc=PJFr1a1ponwAX-Ap83e&_nc_ht=scontent.fccu3-1.fna&oh=97373fbe0c16c427a494971356b91ab3&oe=6050AE1B"
+                  src="./assets/img/apple-icon.png"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 150px;"
                 />
-                <h1 class="text-white font-semibold text-5xl">
-                    HEY THERE!
+                <h1 class="text-white hindi text-5xl">
+                    NAMasTE!
                 </h1>
                 <p class="mt-4 text-lg text-gray-300">
-                Yeah! You know me.</br>
-                The <b>name's Hursh</b>.There is not much to say actually.
-                I love music and <b>playing the piano.</b>(Beginner tho)<br>
-                I <b>eat, sleep and code</b> for most of the times.
-                <b>Trying</b> to study too. NGL.
+                Life is a game, play it... <br>
+                Everything happens for the greater good. <br>
+                I love doing little things that test <br>
+                my patience. <br>
                 </p>
               </div>
             </div>
@@ -179,29 +175,29 @@
             y="0"
           >
             <polygon
-              class="text-gray-300 fill-current"
+              class="topRoyalT fill-current"
               points="2560 0 2560 100 0 100"
             ></polygon>
           </svg>
         </div>
       </div>
-      <section class="pb-20 bg-gray-300 -mt-24">
+      <section class="pb-20 topRoyal -mt-24">
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap">
           <!starts from here>
             <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
                 <a href="https://github.com/elabs/cs-project">
               <div
-                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+                class="relative flex flex-col transition duration-200 min-w-0 break-words bg-white bg-opacity-10 hover:bg-opacity-20 w-full mb-8 shadow-lg rounded-lg"
               >
                 <div class="px-4 py-5 flex-auto">
                   <div
-                    class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400"
+                    class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-800"
                   >
                     <i class="fas fa-gamepad"></i>
                   </div>
-                  <h6 class="text-xl font-semibold">A GAME IN PROGRESS</h6>
-                  <p class="mt-2 mb-4 text-gray-600">
+                  <h6 class="text-xl font-semibold text-white">A GAME IN PROGRESS</h6>
+                  <p class="mt-2 mb-4 text-gray-300">
                     Vertex is an LAN multiplayer chase game, with a lot of
                     potential. I started it as my CS project but don't know where
                     to end it. So, I have decided to keep making it as a time-pass.
@@ -214,7 +210,7 @@
             <div class="w-full md:w-4/12 px-4 text-center">
               <a href="https://www.instagram.com/thathursh/">
               <div
-                class="relative flex flex-col min-w-0 break-words w-full bg-white mb-8 shadow-lg rounded-lg"
+                class="relative flex flex-col transition duration-200 min-w-0 break-words bg-white bg-opacity-10 hover:bg-opacity-20 w-full mb-8 shadow-lg rounded-lg"
               >
                 <div class="px-4 py-5 flex-auto">
                   <div
@@ -222,8 +218,8 @@
                   >
                     <i class="fa fa-compact-disc"></i>
                   </div>
-                  <h6 class="text-xl font-semibold">MUSIC MARATHON</h6>
-                  <p class="mt-2 mb-4 text-gray-600">
+                  <h6 class="text-xl font-semibold text-white">MUSIC MARATHON</h6>
+                  <p class="mt-2 mb-4 text-gray-300">
                     Do check out my instagram posts. I am planning to make piano covers(short ones)
                     as I learn them, so that I have a reason to practice everyday.
                   </p>
@@ -234,7 +230,7 @@
             <div class="pt-6 w-full md:w-4/12 px-4 text-center">
               <a href="https://www.youtube.com/channel/UCyZazp3KEFj76D36H8Tcjyg">
               <div
-                class="relative flex flex-col min-w-0 break-words w-full bg-white mb-8 shadow-lg rounded-lg"
+                class="relative flex flex-col transition duration-200 min-w-0 break-words bg-white bg-opacity-10 hover:bg-opacity-20 w-full mb-8 shadow-lg rounded-lg"
               >
                 <div class="px-4 py-5 flex-auto">
                   <div
@@ -242,8 +238,8 @@
                   >
                     <i class="fab fa-youtube"></i>
                   </div>
-                  <h6 class="text-xl font-semibold">VIDEO MAKING</h6>
-                  <p class="mt-2 mb-4 text-gray-600">
+                  <h6 class="text-xl font-semibold text-white">VIDEO MAKING</h6>
+                  <p class="mt-2 mb-4 text-gray-300">
                     I just love making videos. You know... Creating, editing, exporting...
                     All that stuff. I do have a youtube channel. Do check it out.
                   </p>
@@ -259,30 +255,31 @@
               >
                 <i class="fas fa-school text-xl"></i>
               </div>
-              <h3 class="text-3xl mb-2 font-semibold leading-normal">
-                  My current School
+              <h3 class="text-5xl mb-2 hindi text-white font-semibold leading-normal">
+                 MY SCHOOL
               </h3>
               <p
-                class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700"
+                class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-300"
               >
                 I currently read in Sri Sathya Sai Higher Secondary School.
               </p>
               <p
-                class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700"
+                class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-400"
               >
               Honestly speaking, this is <strong>the school</strong> that you wanna be in. The only place where
                 I don't have to study all the time. There are a lot of things that I can do here.
                 Especially for someone who is fond of Music. Music is present in every inch of here.
               </p>
+              <br>
               <a
                 href="https://www.ssshss.edu.in/"
-                class="font-bold text-gray-800 mt-8 p-6"
-                >Check out our School Website</a
+                class="font-bold transtition duration-300 bg-gray-100 bg-opacity-5 rounded-lg hover:text-gray-200 hover:bg-opacity-10 text-gray-600 mt-8 p-6"
+                >IF You click here you go to the SCHOOL website</a
               >
             </div>
             <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
               <div
-                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blue-500"
+                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-gradient-to-b from-blue-500 via-blue-500 to-black"
               >
                 <img
                   alt="..."
@@ -316,7 +313,7 @@
           </div>
         </div>
       </section>
-      <section class="relative py-20">
+      <section class="relative py-20 royal">
         <div
           class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
           style="height: 80px; transform: translateZ(0px);"
@@ -331,7 +328,7 @@
             y="0"
           >
             <polygon
-              class="text-white fill-current"
+              class="royalT fill-current"
               points="2560 0 2560 100 0 100"
             ></polygon>
           </svg>
@@ -348,17 +345,18 @@
             <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
               <div class="md:pr-12">
                 <div
-                  class="my-4 text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full"
+                  class="my-4 text-black p-3 text-center ring-2 ring-color inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full"
                 >
                 <img src="./assets/img/flstudio.png"/>
                 </div>
-                <h3 class="text-3xl font-semibold">I learn and love to Create Music</h3>
-                <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                <h3 class="text-3xl text-purple-400 font-semibold">I learn and love to Create Music</h3>
+                <p class="mt-4 text-lg leading-relaxed text-gray-400">
                     You will notice that I don't actually record songs using Mic and stuff
                     because I don't need to. I just use a MIDI keyboard and a DAW to record
                     those songs.<br>
                     I got inspiration from the Sai Audio where we created our first song for
-                    our 12th class brothers' farewell,<br><b>"Yaadon Ka Silsila"</b>.<br>
+                    our 12th class brothers' farewell,<br>"
+                    <b class='text-purple-400 hand text-2xl'>Yaadon Ka Silsila</b> ".<br>
                     Some of the Stuff I use :
                 </p>
                 <ul class="list-none mt-6">
@@ -372,7 +370,7 @@
                         </span>
                       </div>
                       <div>
-                        <h4 class="text-gray-600">
+                        <h4 class="text-gray-600 text-yellow-300">
                             FL Studio
                         </h4>
                       </div>
@@ -388,7 +386,7 @@
                         </span>
                       </div>
                       <div>
-                        <h4 class="text-gray-600">Yamaha PSR Keyboard</h4>
+                        <h4 class="text-gray-600 text-blue-200">Yamaha PSR Keyboard</h4>
                       </div>
                     </div>
                   </li>
@@ -402,7 +400,7 @@
                         </span>
                       </div>
                       <div>
-                        <h4 class="text-gray-600">Literally any Computer</h4>
+                        <h4 class="text-gray-600 text-green-200">Literally any Computer</h4>
                       </div>
                     </div>
                   </li>
@@ -411,13 +409,22 @@
             </div>
           </div>
         </div>
+
       </section>
-      <section class="pt-10 pb-16">
-        <div class="container mx-auto px-4">
+      <section class="relative">
+          <div class=" absolute md:bg-fixed w-full h-full bg-center bg-cover"
+               style='background-image: url("./assets/img/wallpaper2.jpg");'>
+
+          <span
+            id="blackOverlay"
+            class="w-full h-full absolute opacity-90 bg-black"
+          ></span>
+          </div>
+        <div class="pt-10 container relative mx-auto px-4">
           <div class="flex flex-wrap justify-center text-center mb-12">
             <div class="w-full lg:w-6/12 px-4">
-              <h2 class="text-4xl font-semibold">Here are some of my Heroes</h2>
-              <p class="text-lg leading-relaxed m-4 text-gray-600">
+              <h2 class="text-4xl hand font-semibold text-gray-300">Here are some of my Heroes...</h2>
+              <p class="text-lg leading-relaxed m-4 text-gray-400">
                 Over the years there are some of the people who have inspired me in
                 different ways.
               </p>
@@ -429,12 +436,12 @@
                 <img
                   alt="..."
                   src="https://cdn.britannica.com/s:250x250,c:crop/53/126653-050-8B554960/Stephen-W-Hawking-2007.jpg"
-                  class="shadow-lg rounded-full max-w-full mx-auto"
+                  class="shadow-lg ring-2 ring-blue-400 rounded-full max-w-full mx-auto"
                   style="max-width: 120px;"
                 />
                 <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Stephen W. Hawking</h5>
-                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                  <h5 class="text-xl font-bold text-gray-400">Stephen W. Hawking</h5>
+                  <p class="mt-1 text-sm text-blue-400 uppercase font-semibold">
                     Theoretical Physicist
                   </p>
                   <div class="mt-6">
@@ -465,13 +472,13 @@
               <div class="px-6">
                 <img
                   alt="..."
-                  src="https://scontent.fccu3-1.fna.fbcdn.net/v/t1.0-9/138343378_245617366932644_7228980936553895200_n.jpg?_nc_cat=1&ccb=3&_nc_sid=09cbfe&_nc_ohc=pcRMIeEuaaIAX_He2fo&_nc_ht=scontent.fccu3-1.fna&oh=03c91bcbb9079bc3978372a626e9148e&oe=604D63E1"
-                  class="shadow-lg rounded-full max-w-full mx-auto"
+                  src="./assets/img/Adnan-Sami.jpg"
+                  class="shadow-lg ring-2 ring-purple-400 rounded-full max-w-full mx-auto"
                   style="max-width: 120px;"
                 />
                 <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Adnan Sami</h5>
-                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                  <h5 class="text-xl font-bold text-gray-400">Adnan Sami</h5>
+                  <p class="mt-1 text-sm text-purple-400 uppercase font-semibold">
                     Musician | Pianist
                   </p>
                   <div class="mt-6">
@@ -497,12 +504,12 @@
                 <img
                   alt="..."
                   src="https://avatars.githubusercontent.com/u/1024025?s=400&v=4"
-                  class="shadow-lg rounded-full max-w-full mx-auto"
+                  class="shadow-lg ring-2 ring-green-500 rounded-full max-w-full mx-auto"
                   style="max-width: 120px;"
                 />
                 <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Linus Torvalds</h5>
-                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                  <h5 class="text-xl font-bold text-gray-400">Linus Torvalds</h5>
+                  <p class="mt-1 text-sm text-green-500 uppercase font-semibold">
                     Creator of Linux
                   </p>
                   <div class="mt-6">
@@ -534,12 +541,12 @@
                 <img
                   alt="..."
                   src="https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f47d4de7637290765bce495%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D1398%26cropX2%3D3908%26cropY1%3D594%26cropY2%3D3102"
-                  class="shadow-lg rounded-full max-w-full mx-auto"
+                  class="shadow-lg ring-2 ring-yellow-300 rounded-full max-w-full mx-auto"
                   style="max-width: 120px;"
                 />
                 <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Elon Musk</h5>
-                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                  <h5 class="text-xl font-bold text-gray-400">Elon Musk</h5>
+                  <p class="mt-1 text-sm text-yellow-300 uppercase font-semibold">
                     Founder and CEO of Space-X
                   </p>
                   <div class="mt-6">
@@ -575,7 +582,7 @@
           </div>
         </div>
       </section>
-      <section class="pb-20 relative block bg-gray-900">
+      <section class="pb-20 bg-gradient-to-b from-gray-900 via-black to-black relative block end">
         <div
           class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
           style="height: 80px; transform: translateZ(0px);"
@@ -600,7 +607,7 @@
             <div class="w-full lg:w-6/12 px-4">
               <h2 class="text-4xl font-semibold text-white">My Other Interests</h2>
               <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
-                Other than studies, music and coding in general I am quite interested
+              Other than studies, music and coding in general <br>I am quite interested
                 in a few things such as:
               </p>
             </div>
@@ -653,67 +660,67 @@
         </div>
       <br>
       </section>
-      <section class="relative block py-24 lg:pt-0 bg-gray-900">
+      <section class="relative block py-24 lg:pt-0 bg-black">
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
             <div class="w-full lg:w-6/12 px-4">
               <div
-                class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300"
+                class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-opacity-10 bg-white"
               >
                 <div class="flex-auto p-5 lg:p-10">
-                  <h4 class="text-2xl font-semibold">Send Me a Mail</h4>
-                  <p class="leading-relaxed mt-1 mb-4 text-gray-600">
+                  <h4 class="text-3xl font-semibold text-gray-400 hand">Send Me a Mail</h4>
+                  <p class="leading-relaxed mt-1 mb-4 text-gray-500">
                   Wanna Share something with me?
                   Feel free to do so!<br>
                     <strong>P.S. Please don't spam!</strong>
                   </p>
                   <div class="relative w-full mb-3 mt-8">
                     <label
-                      class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                      class="block uppercase text-gray-400 text-xs font-bold mb-2"
                       for="full-name"
                       >Your Name</label
                     ><input
                       type="text"
                       id = "emailName"
-                      class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                      class="px-3 py-3 placeholder-gray-400 text-white bg-opacity-10 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
                       placeholder="Full Name"
                       style="transition: all 0.15s ease 0s;"
                     />
                   </div>
                   <div class="relative w-full mb-3">
                     <label
-                      class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                      class="block uppercase text-gray-400 text-xs font-bold mb-2"
                       for="subject"
                       >Subject</label
                     ><input
                       type="text"
                       id = "emailSubject"
-                      class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                      class="px-3 py-3 placeholder-gray-400 text-white bg-opacity-10 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
                       placeholder="What's up? (optional)"
                       style="transition: all 0.15s ease 0s;"
                     />
                   </div>
                   <div class="relative w-full mb-3">
                     <label
-                      class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                      class="block uppercase text-gray-400 text-xs font-bold mb-2"
                       for="message"
                       >Message</label
                     ><textarea
                       rows="4"
                       id = "emailMessage"
                       cols="80"
-                      class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                      class="px-3 py-3 placeholder-gray-400 text-white bg-opacity-10 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
                       placeholder="Type a message..."
                     ></textarea>
                   </div>
                   <div class="text-center mt-6">
                     <button
-                      class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                      class="bg-white bg-opacity-20 hindi transition duration-300 text-gray-200 hover:bg-opacity-50 active:bg-gray-700 text-2xl font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
                       type="button"
                       onclick= "sendMail()"
                       style="transition: all 0.15s ease 0s;"
                     >
-                      Send Message
+                      Send
                     </button>
                   </div>
                 </div>
@@ -863,8 +870,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script >
     function toggleNavbar(collapseID) {
-      document.getElementById(collapseID).classList.toggle("hidden");
-      document.getElementById(collapseID).classList.toggle("block");
+      document.getElementById(collapseID).classList.toggle("scale-0");
+      document.getElementById(collapseID).classList.toggle("scale-100");
     }
     function sendMail() {
         var n = document.getElementById('emailName');
