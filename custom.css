@@ -27,6 +27,7 @@
 }
 
 html {
+        background-color: #050505;
 	scroll-behavior: smooth;
 	-webkit-overflow-scrolling: touch;
 }
